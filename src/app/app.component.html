@@ -1,0 +1,22 @@
+<h1>Temperature Convertor</h1>
+<div class="outerpart">
+  <div class= "Answer">
+    <div class="textbox">
+      <input type="number" placeholder="Enter  Temperature " #temp>
+    </div>
+    <div>
+      <mat-form-field appearance="fill">
+        <mat-label>Select</mat-label>
+        <mat-select [(value)]="selected">
+          <mat-option value="Farenheit">Farenheit</mat-option>
+          <mat-option value="Kelvin">Kelvin</mat-option>
+        </mat-select>
+      </mat-form-field>
+    </div>
+    <div>
+      <button (click)="calculateTemperature(temp.value)">Convertor</button>
+    </div>
+  </div>
+  <h1>{{answer}}</h1>
+</div>
+<router-outlet></router-outlet>

@@ -1,0 +1,49 @@
+.Answer{
+    width: 60%;
+    display:flex;
+    color:blue;
+    justify-content:space-around;
+    
+}
+input{
+    height: 6.5vh;
+    font-size: 18px;
+}
+button{
+    height: 53px;
+    color: rgb(247, 218, 218);
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    color: #383b3d;
+    
+    border-radius: 7px;
+    background: #a3c3ec;
+    transition: all 0.1s ease;
+}
+.outerpart{
+    margin: 25px;
+    margin-left: 6.5%;
+    border: 1.8px solid rgb(212, 231, 212);
+    background-color: rgb(231, 235, 245);
+    border-radius: 10px;
+    display:flex;
+    background-image: linear-gradient(115deg,#cbdeee,#d7f7fc);
+    padding: 40px;
+    width: 80%;
+    column-gap: auto;
+ 
+  color: #222;
+
+  cursor: pointer;
+  font-family: 'Montserrat',sans-serif;
+    
+    
+    
+}
+h1{
+    text-align: center;
+    text-size-adjust: 45px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+}
